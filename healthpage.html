@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Samsung Galaxy S4</title>
+	<meta name = "viewport" content = "width=320,initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<style type="text/css">
+		#tap-health-info{
+			display: none;
+		}
+	</style>
+	<script type="text/javascript">
+
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-40923772-1', 'mynameisakbar.com');
+	  ga('send', 'pageview');
+
+	 </script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/jquery.hammer.min.js"></script>
+	<script src="js/general.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		 /*$("#fun").fadeIn(400);
+		 $("#relationship").delay(800).fadeIn(400);
+		 $("#health").delay(1200).fadeIn(400);
+		 $("#convenience").delay(1600).fadeIn(400);
+
+		 $("#s4-logo-big").delay(2000).animate({"left": "0px"}, 400);
+		 $("#start-discover").delay(2400).animate({"left": "0px"}, 400);
+
+		 $("#tap-to-discover").delay(2800).fadeIn(800);
+		 $("#phone-discover").delay(2800).fadeIn(800);*/
+
+		 $("#s4health").animate({"left": "0px"}, 600);
+		 $("#tap-health-info").delay(600).fadeIn(400);
+	});
+	</script>
+</head>
+
+<body>
+
+	<div class = "container" id ="health-page">
+		<div class="header" id = "discover"></div>
+		<div class="menu-bar">
+			<div class="menu-items" id="fun"></div>
+			<div class="menu-items" id="relationship"></div>
+			<div class="menu-items" id="health-a"></div>
+			<div class="menu-items" id="convenience"></div>
+		</div>
+		<div id="health-holder">
+			<div id="s4health"></div>
+			<div id="tap-health-info"></div>
+		</div>
+		<div class="samsung-logo"></div>
+	</div>
+
+</body>
+
+
+</html>

@@ -1,0 +1,377 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*header*/
+.header{
+	width: 320px;
+	height: 64px;
+	position: absolute;
+	z-index: 2;
+}
+
+#landing{
+	background: url('../assets/topbar.png')no-repeat;
+}
+
+#discover{
+	background: url('../assets/topbartop.png')no-repeat;
+}
+
+.container{
+	width: 320px;
+	height: 440px;
+}
+
+/*footer*/
+.samsung-logo{
+	width: 63px;
+	height: 21px;
+	background: url('../assets/samsunglogo.png')no-repeat;
+	position: fixed;
+	top: 414px;
+	left: 255px;
+	z-index: 100;
+}
+
+/*home page*/
+#home{
+	background: url('../assets/bg.jpg')no-repeat;
+	background-position: -570px 40px;
+	transition: background-position 2s ease; 
+}
+
+#second-page{
+	background: url('../assets/bg-discover.jpg')no-repeat;
+}
+
+#fun-page{
+	background: url('../assets/fun-bg.jpg')no-repeat;
+	background-position: 0px 15px;
+}
+
+#health-page{
+	background: url('../assets/shealth.jpg')no-repeat;
+	background-position: 0px 10x;
+}
+
+#health-page-2{
+	background: url('../assets/shealthinfobg.jpg')no-repeat;
+}
+
+#rel-page{
+	background: url('../assets/stranslatorbg.jpg')no-repeat;
+}
+
+#con-page{
+	background: url('../assets/airbg.gif')no-repeat;
+}
+
+
+/*.home-left{
+	background-position: -100px 40px!important;
+	transition: background-position 2s ease; 
+}*/
+
+.center{
+	margin: 0 auto;
+}
+
+#landing-title{
+	width: 196px;
+	height: 28px;
+	background: url('../assets/lifecompanion.png')no-repeat;
+	position: relative;
+	top: 80px;
+}
+
+.swipe{
+	width:223px;
+	height: 53px;
+	position: relative;
+	top: 100px;
+}
+
+#sw-right{
+	background: url('../assets/swiperighttoproceed.png')no-repeat;
+}
+
+#landing-phone{
+	background: url('../assets/phone.png')no-repeat;
+	width: 222px;
+	height: 243px;
+	position: relative;
+	top: 105px;
+	right: 10px;
+}
+
+/*discover page*/
+
+#tap-to-discover{
+	width: 254px;
+	height: 24px;
+	background: url('../assets/taponthe.jpg')no-repeat;
+	margin: 0 auto;
+	position: relative;
+	top: 150px;
+}
+
+#s4-logo-big{
+	width: 294px;
+	height: 44px;
+	background: url('../assets/s4logobig.png')no-repeat;
+	margin: 0 auto;
+	position: relative;
+	top: 170px;
+
+	left: -305px;/*animation*/
+}
+
+#start-discover{
+	width: 214px;
+	height: 28px;
+	background: url('../assets/startdiscovering.png')no-repeat;
+	margin: 0 auto;
+	position: relative;
+	top: 180px;
+
+	left: 268px;/*animation*/
+}
+
+#phone-discover{
+	width: 302px;
+	height: 63px;
+	background: url('../assets/phonesideways.png')no-repeat;
+	margin: 0 auto;
+	position: relative;
+	top: 200px;
+}
+
+/*fun page*/
+.fun-text{
+	width: 300px;
+	height: 50px;
+	margin: 0 auto;
+	position: relative;
+	top: 200px;
+}
+
+#text-1{
+	background: url('../assets/ds1.png')no-repeat;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+
+#text-2{
+	background: url('../assets/ds2.png')no-repeat;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+	display: none;
+}
+
+#text-3{
+	background: url('../assets/ds3.png')no-repeat;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 3;
+	display: none;
+}
+
+#photo-button{
+	background: url('../assets/takephoto.png')no-repeat;
+	width: 148px;
+	height: 35px;
+	position: relative;
+	top: 200px;
+	left: 10px;
+	display: none;
+}
+
+#hand-outline{
+	background: url('../assets/handoutline.png')no-repeat;
+	width: 207px;
+	height: 137px;
+	position: absolute;
+	top: 300px;
+}
+
+#s4-camera{
+	background: url('../assets/camera-before.png')no-repeat;
+	width: 320px;
+	height: 156px;
+	position: absolute;
+	top: 300px;
+	left: -107px;
+}
+
+.camera-straightened{
+	-webkit-transform:rotate(-17deg);
+	transition: -webkit-transform 0.5s ease; 
+}
+
+#mainInput{
+	background: hsl(0, 100%, 50%);
+	position: relative;
+	top: 166px;
+	left: 10px;
+	height: 30px;
+	width: 145px;
+	opacity: 0;
+}
+
+#final-camera{
+	background: url('../assets/handfinal-blank.png')no-repeat;
+	width: 319px;
+	height: 204px;
+	position: relative;
+	top: 155px;
+	left: -340px;
+}
+
+/*healthpage*/
+#health-holder{
+	width: 300px;
+	height: 201px;
+	margin: 0 auto;
+	position: relative;
+	top: 260px;
+}
+
+#s4health{
+	background: url('../assets/s4.png')no-repeat;
+	height: 100%;
+	width: 131px;
+	background-size: 100px 160px;
+	float: left;
+
+	/*animation*/
+	position: relative;
+	left: -105px;
+}
+
+#tap-health-info{
+	background: url('../assets/taphere.png')no-repeat;
+	height: 35px;
+	width: 108px;
+	float: left;
+	position: relative;
+	top: 55px;
+}
+
+#info-bottom, #info-top{
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+}
+
+#info-bottom{
+	width: 311px;
+	height: 314px;
+	background: url('../assets/shealthphone.png')no-repeat; 
+	left: 54px;
+}
+
+#info-top{
+	width: 311px;
+	height: 314px;
+	background: url('../assets/shealthinfo.png')no-repeat; 
+	top: -215px;
+	opacity: 0;
+}
+
+#hotspot-for-health{
+	/*background: hsl(0, 0%, 0%);*/
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	top: 5px;
+}
+
+/*relationship*/
+#swipeuptoview{
+	background: url('../assets/swipeuptoview.png')no-repeat; 
+	width: 136px;
+	height: 18px;
+	margin: 0 auto;
+	position: relative;
+	top: 269px;
+}
+
+#slidephone{
+	background: url('../assets/translator.png')no-repeat; 
+	margin: 0 auto;
+	width: 320px;
+	height: 500px;
+	position: relative;
+	top: 275px;
+	z-index: 99;
+}
+
+/*convenience*/
+#air-gifs{
+	width: 252px;
+	height: 187px;
+	margin: 0 auto;
+	background: url('../assets/airhand.gif')no-repeat; 
+	position: relative;
+	top: 255px;
+}
+
+/*Navigation*/
+.menu-bar{
+	width: 320px;
+	height: 85px;
+	position: absolute;
+	top: 35px;
+	z-index: 2;
+}
+
+.menu-items{
+	width: 25%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+#fun{
+	background: url('../assets/fun.png')no-repeat;
+}
+
+#fun-a{
+	background: url('../assets/fun-a.png')no-repeat;
+}
+
+
+#relationship{
+	background: url('../assets/relationship.png')no-repeat;
+}
+
+#relationship-a{
+	background: url('../assets/relationship-a.png')no-repeat;
+	background-size: 99%;
+	background-position: 0px;
+}
+
+#health{
+	background: url('../assets/shealth.png')no-repeat;
+}
+
+#health-a{
+	background: url('../assets/shealth-a.png')no-repeat;
+}
+
+#convenience{
+	background: url('../assets/convenience.png')no-repeat;
+}
+
+#convenience-a{
+	background: url('../assets/convenience-a.png')no-repeat;
+	background-size: 92%;
+	background-position: 0px;
+}
